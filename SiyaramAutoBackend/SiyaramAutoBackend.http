@@ -1,0 +1,6 @@
+@SiyaramAutoBackend_HostAddress = http://localhost:5119
+
+GET {{SiyaramAutoBackend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

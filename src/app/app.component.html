@@ -1,0 +1,21 @@
+<!-- 3D animation background container -->
+<div class="animation-background"></div>
+
+<nav class="main-nav">
+  <ul>
+    <li><a routerLink="" routerLinkActive="active">Home</a></li>
+    <li class="dropdown">
+      <a href="#">Categories</a>
+      <ul class="dropdown-content">
+        <li><a routerLink="/categories/bike" routerLinkActive="active">Bike</a></li>
+        <li><a routerLink="/categories/scooty" routerLinkActive="active">Scooty</a></li>
+        <li><a routerLink="/categories/electric-scooty" routerLinkActive="active">Electric Scooty</a></li>
+      </ul>
+    </li>
+    <li><a routerLink="/contact-us" routerLinkActive="active">Contact Us</a></li>
+    <li><a routerLink="/help" routerLinkActive="active">Help</a></li>
+    <li><a routerLink="/location" routerLinkActive="active">Location</a></li>
+  </ul>
+</nav>
+
+<router-outlet></router-outlet>

@@ -1,0 +1,9 @@
+<h3>Scooties</h3>
+<div class="product-list">
+  <div class="product-card" *ngFor="let scooty of scooties">
+    <img [src]="scooty.image" [alt]="scooty.name" />
+    <h4>{{ scooty.name }}</h4>
+    <button (click)="buyNow(scooty)">Buy Now</button>
+    <button (click)="makePayment(scooty)">Payment</button>
+  </div>
+</div>
